@@ -1,0 +1,117 @@
+body {
+    background-color: #0D192C;
+    display: flex;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    margin: auto;
+    border-radius: 15px;
+    padding: 24px;
+}
+.imgContainer {
+    position: relative;
+    width: 100%;
+}
+.imgMain{
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin-top: 24px;
+}         
+p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #8BACD9;
+    margin-top: 16px;
+}
+.priceClock {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FFF8;
+}
+.clock {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8BACD9;
+}
+.line {
+    background-color: #2E405A;
+    height: 1px;
+    border: 0;
+    margin-bottom: 0;
+}
+.author {
+    display: flex;
+    align-items: center;
+}
+span {
+    color: white;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.avatar {
+    width: 33px;
+    margin-top: 10px;
+    margin-right: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8BACD9;
+    margin-top: 22px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.eye_icon {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 44%;
+    top: 44%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #00FFF8;
+    border-radius: 8px;
+}
+.imgContainer:hover .overlay {
+opacity: 0.5;
+cursor: pointer;
+}
+span:hover {
+color: #00FFF8;
+cursor: pointer;
+}
